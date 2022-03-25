@@ -1,6 +1,8 @@
 #include <iostream>
 #define inf 999
 
+//TODO: implementat johnson's algorithm
+
 void Dijkstra(int G[6][6], int n, int varf_start) {
     int cost[6][6], distance[6], pred[6], visited[6];
     int mindistance, count, urm_vf, i, j;
